@@ -12,7 +12,7 @@ function App() {
         { id: "task_2", title: "Code a todo list", status: 0 },
     ]);
     const [showIncomplete, setShowIncomplete] = useState(false);
-    const [newTask, setNewTask] = useState("123");
+    const [newTask, setNewTask] = useState("");
 
     const handleSubmit = (e) => {
         e.preventDefault();
